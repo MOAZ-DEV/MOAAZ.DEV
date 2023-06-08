@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/MOAAZ.DEV/static/css/main.fdcc8ba2.css",
+    "main.js": "/MOAAZ.DEV/static/js/main.c9d33d77.js",
+    "static/js/787.6c6ee6e1.chunk.js": "/MOAAZ.DEV/static/js/787.6c6ee6e1.chunk.js",
+    "static/media/Attached.svg": "/MOAAZ.DEV/static/media/Attached.622f507dbf105e6ef1388d715c9ba9a4.svg",
+    "index.html": "/MOAAZ.DEV/index.html",
+    "static/media/LogoWhite.svg": "/MOAAZ.DEV/static/media/LogoWhite.a285bf66306a193df8ed136da8d0f169.svg",
+    "static/media/LogoBlack.svg": "/MOAAZ.DEV/static/media/LogoBlack.80c737dbd1310e251992dc9409953490.svg",
+    "static/media/Menu.svg": "/MOAAZ.DEV/static/media/Menu.fed45eb1a7a3933b32601eca58dbc0b3.svg",
+    "main.fdcc8ba2.css.map": "/MOAAZ.DEV/static/css/main.fdcc8ba2.css.map",
+    "main.c9d33d77.js.map": "/MOAAZ.DEV/static/js/main.c9d33d77.js.map",
+    "787.6c6ee6e1.chunk.js.map": "/MOAAZ.DEV/static/js/787.6c6ee6e1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fdcc8ba2.css",
+    "static/js/main.c9d33d77.js"
+  ]
+}
