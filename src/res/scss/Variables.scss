@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*text style*/
+@mixin header-h1-rg {
+    font-size     : 76.29px;
+    font-family   : Montserrat;
+    font-weight   : 400;
+    letter-spacing: 0em;
+}
+
+@mixin header-h2-rg {
+    font-size     : 61.04px;
+    font-family   : Montserrat;
+    font-weight   : 400;
+    letter-spacing: 0em;
+}
+
+@mixin header-h3-rg {
+    font-size     : 48.83px;
+    font-family   : Montserrat;
+    font-weight   : 400;
+    letter-spacing: 0em;
+}
+
+@mixin header-h4-rg {
+    font-size     : 39.06px;
+    font-family   : Montserrat;
+    font-weight   : 400;
+    letter-spacing: 0em;
+}
+
+@mixin header-h6-rg {
+    font-size     : 25px;
+    font-family   : Montserrat;
+    font-weight   : 400;
+    letter-spacing: 0em;
+}
+
+@mixin body-01-rg {
+    font-size     : 20px;
+    font-family   : Montserrat;
+    font-weight   : 400;
+    letter-spacing: 0em;
+}
+
+@mixin body-02-rg {
+    font-size     : 16px;
+    font-family   : Montserrat;
+    font-weight   : 400;
+    letter-spacing: 0em;
+}
+
+@mixin header-h5-rg {
+    font-size     : 31.25px;
+    font-family   : Montserrat;
+    font-weight   : 400;
+    letter-spacing: 0em;
+}
+
+@mixin body-03-rg {
+    font-size     : fptr(12.8px);
+    font-family   : Montserrat;
+    font-weight   : 400;
+    letter-spacing: 0em;
+}
+
+@mixin body-04-rg {
+    font-size     : 10.23px;
+    font-family   : Montserrat;
+    font-weight   : 400;
+    letter-spacing: 0em;
+}
+
+@mixin header-h1-md {
+    font-size     : fptr(76.29px);
+    font-family   : Montserrat;
+    font-weight   : 500;
+    letter-spacing: 0em;
+}
+
+@mixin header-h2-md {
+    font-size     : fptr(61.04px);
+    font-family   : Montserrat;
+    font-weight   : 500;
+    letter-spacing: 0em;
+}
+
+@mixin header-h3-md {
+    font-size     : 48.83px;
+    font-family   : Montserrat;
+    font-weight   : 500;
+    letter-spacing: 0em;
+}
+
+@mixin header-h4-md {
+    font-size     : 39.06px;
+    font-family   : Montserrat;
+    font-weight   : 500;
+    letter-spacing: 0em;
+}
+
+@mixin header-h5-md {
+    font-size     : 31.25px;
+    font-family   : Montserrat;
+    font-weight   : 500;
+    letter-spacing: 0em;
+}
+
+@mixin header-h6-md {
+    font-size     : 25px;
+    font-family   : Montserrat;
+    font-weight   : 500;
+    letter-spacing: 0em;
+    text-indent   : 45px;
+}
+
+@mixin body-01-md {
+    font-size     : 20px;
+    font-family   : Montserrat;
+    font-weight   : 500;
+    letter-spacing: 0em;
+}
+
+@mixin body-02-md {
+    font-size     : 16px;
+    font-family   : Montserrat;
+    font-weight   : 500;
+    letter-spacing: 0em;
+}
+
+@mixin body-03-md {
+    font-size     : 12.8px;
+    font-family   : Montserrat;
+    font-weight   : 500;
+    letter-spacing: 0em;
+}
+
+@mixin body-04-md {
+    font-size     : 10.23px;
+    font-family   : Montserrat;
+    font-weight   : 500;
+    letter-spacing: 0em;
+}
+
+@mixin header-h1-bd {
+    font-size     : 76.29px;
+    font-family   : Montserrat;
+    font-weight   : 700;
+    letter-spacing: 0em;
+    text-transform: uppercase;
+}
+
+@mixin header-h2-bd {
+    font-size     : 61.04px;
+    font-family   : Montserrat;
+    font-weight   : 700;
+    letter-spacing: 0em;
+}
+
+@mixin header-h3-bd {
+    font-size     : 48.83px;
+    font-family   : Montserrat;
+    font-weight   : 700;
+    letter-spacing: 0em;
+}
+
+@mixin header-h4-bd {
+    font-size     : 39.06px;
+    font-family   : Montserrat;
+    font-weight   : 700;
+    letter-spacing: 0em;
+}
+
+@mixin header-h5-bd {
+    font-size     : 31.25px;
+    font-family   : Montserrat;
+    font-weight   : 700;
+    letter-spacing: 0em;
+}
+
+@mixin header-h6-bd {
+    font-size     : 25px;
+    font-family   : Montserrat;
+    font-weight   : 700;
+    letter-spacing: 0em;
+}
+
+@mixin body-01-bd {
+    font-size     : 20px;
+    font-family   : Montserrat;
+    font-weight   : 700;
+    letter-spacing: 0em;
+}
+
+@mixin body-02-bd {
+    font-size     : 16px;
+    font-family   : Montserrat;
+    font-weight   : 700;
+    letter-spacing: 0em;
+}
+
+@mixin body-03-bd {
+    font-size     : 12.8px;
+    font-family   : Montserrat;
+    font-weight   : 700;
+    letter-spacing: 0em;
+}
+
+@mixin body-04-bd {
+    font-size     : 10.23px;
+    font-family   : Montserrat;
+    font-weight   : 700;
+    letter-spacing: 0em;
+}
+
+@mixin header-h1-rg-linked {
+    font-size     : 76.29px;
+    font-family   : Montserrat;
+    font-weight   : 400;
+    letter-spacing: 0em;
+}
+
+@mixin body-02-bd-linked {
+    font-size     : 16px;
+    font-family   : Montserrat;
+    font-weight   : 700;
+    letter-spacing: 0em;
+    text-transform: uppercase;
+}
+
+@mixin body-03-bd-linked {
+    font-size     : 12.8px;
+    font-family   : Montserrat;
+    font-weight   : 700;
+    letter-spacing: 0em;
+    text-transform: uppercase;
+}
+/*color styles*/
+$white: white;
+$black: black;

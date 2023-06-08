@@ -1,0 +1,156 @@
+@import "./Funcs&mixins.scss";
+
+
+.App {
+    @include sc("md") {
+        padding: fptr(45px) fptr(25px);
+    }
+
+    @include sc("sm") {
+        gap: fptr(95px);
+    }
+
+    .nav {
+        @include sc("md") {
+            padding: fptr(45px) fptr(25px);
+        }
+
+        .wraap {
+            @include sc("md") {
+                width: fit-content
+            }
+            @include sc("md") {
+                width: fit-content
+            }
+
+            @include body-03-rg;
+        }
+
+        @include sc("md") {
+            gap: fptr(45px);
+        }
+    }
+
+    @include sc("md") {
+        flex-direction: column;
+        align-items   : flex-start;
+        gap           : fptr(95px);
+
+        .wraap {
+            width          : fill-available;
+            justify-content: end;
+            position       : static;
+        }
+    }
+
+    .hero {
+        @include sc("lg") {
+            padding: 35vh 0 0 0;
+        }
+
+        @include sc("md") {
+            padding: 30vh 0 0 0;
+        }
+
+        .header {
+            @include sc("lg") {
+                text-align: left;
+                @include header-h2-md;
+            }
+
+            @include sc("lg") {
+                br {
+                    display: none;
+                }
+            }
+
+            @include header-h1-md;
+        }
+
+        .wrap {
+            span {
+                @include body-03-rg;
+
+                @include sc("lg") {
+                    br {
+                        display: none;
+                    }
+                }
+            }
+
+            button {
+                @include body-02-md;
+            }
+
+            @include sc("lg") {
+                flex-direction: column;
+            }
+        }
+    }
+
+    .works {
+        .menu {
+            span {
+                @include body-01-md;
+            }
+
+            ul {
+                @include sc("lg") {
+                    width          : fill-available;
+                    flex-direction : row;
+                    justify-content: space-between;
+                }
+
+                span {
+                    @include body-04-rg;
+                }
+
+                @include sc("lg") {
+                    span {
+                        display: inline;
+                        @include body-04-rg;
+                    }
+                }
+
+                li {
+                    @include body-04-rg;
+                }
+            }
+
+            @include sc("lg") {
+                width: fill-available;
+            }
+        }
+
+        .list {
+            li {
+                span {
+                    padding: 14px;
+                    @include body-03-bd;
+                }
+            }
+        }
+
+        @include sc("lg") {
+            flex-direction: column;
+        }
+
+        @include sc("xl") {
+            width: fill-available;
+        }
+    }
+
+    .talk {
+        div {
+            span {
+                &:first-of-type {
+                    @include body-01-md;
+                }
+
+                &:last-of-type {
+                    @include body-04-rg;
+                }
+            }
+        }
+    }
+}
