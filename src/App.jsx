@@ -29,7 +29,7 @@ function App() {
 
       <section className="hero">
         <span className="header">
-          Independant front-end web <br /> developer based in egypt
+          An Independant front-end web <br /> developer based in egypt
         </span>
         <div className="wrap">
           <span className="">Creating stunning minimal designs with an eye for details and a passion for <br /> delivering exceptional user experiences,
